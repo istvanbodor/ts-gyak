@@ -1,0 +1,22 @@
+Login form feladat
+
+Feladat leírása: 
+A munkahelyeden azt a feladatot kapod, hogy a designerek által elkészített kódot kiegészítsd backend (és frontend) működéssel. A feladat megoldásához használd a források mappában található index.html és style.css fájlokat!
+
+Kritériumok, amelyek alapján dolgoznod kell:
+
+ - a kapott kódot a felhasználó magyar nyelven lássa (, egyszerűen írd át a megfelelő részeket
+
+ - a felhasználónév mező a google által standardokat ajánla, ezeket valósítsd meg: (https://support.google.com/mail/answer/9211434?hl=en)
+   
+ - az email mező a tipikus emaillel kapcsolatos validációkat tartalmazza (ennek megoldásához használd az alábbi oldalon található helyenek megitélt bejegyzést (~6317 pontot kapó hozzászólás): https://stackoverflow.com/questions/46155/how-can-i-validate-an-email-address-in-javascript)
+ hozz létre egy új email típusú mezőt (re-email)
+ 
+ - jelszó mezőre az alábbi kéréseket valósítd meg: tartalmazhat kisbetűket, nagybetűket, számokat, aláhúzást, kötőjelet, minimum 5 karakter, maximum 10 karakteres legyen; illetve hozz létre egy új mezőt, mert a jelszót kétszer kell bekérni (repassword)
+ 
+ - ha nem megfelelő a felhasználónév, az email, a re-email, a password, vagy a re-password, akkor küldj a felhasználónak hibaüzeneteket, minden hibaüzenet a megfelelő helyen jelenjen meg (, a HTML kódban, félkövér sötétzöld betűvel)!
+ 
+ - egyik mező sem maradhat üresen
+ - ha minden rendben ment az adatok megadásánál, akkor egy egyszerű alertben értesítsd a felhasználót
+ 
+ 
