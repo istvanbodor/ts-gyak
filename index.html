@@ -25,9 +25,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="main-agileinfo">
 			<div class="agileits-top">
 				<form action="#" method="post">
-					<input class="text" type="text" name="Username" placeholder="Felhasználónév" required="">
-					<input class="text email" type="email" name="email" placeholder="Email" required="">
-					<input class="text" type="password" name="password" placeholder="Jelszó" required="">
+					<input class="text" type="text" name="Username" id="felhasznalonev" placeholder="Felhasználónév" required="">
+                    <p class="hiba" id="userhiba"></p>
+					<input class="text email" type="email" name="email" id="email" placeholder="Email" required="">
+                    <p class="hiba" id="emailhiba"></p>
+                    <input class="text email" type="email" name="emailujra" id="reemail" placeholder="Email újra" required="">
+                    <p class="hiba" id="reemailhiba"></p>
+					<input class="text" type="password" name="password" id="password" placeholder="Jelszó" required="">
+                    <p class="hiba" id="pwhiba"></p><br>
+                    <input class="text" type="password" name="passwordujra" id="repassword" placeholder="Jelszó újra" required="">
+                    <p class="hiba" id="repwhiba"></p>
 					<div class="wthree-text">
 						<label class="anim">
 							<input type="checkbox" class="checkbox" required="">
@@ -59,5 +66,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</ul>
 	</div>
 	<!-- //main -->
+    <script src="./dist/main.js" refer></script>
 </body>
 </html>
